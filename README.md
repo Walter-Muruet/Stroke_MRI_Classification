@@ -1,14 +1,13 @@
-# Project Title
+# Classification of Stroke Head MRIs
 ---
-**Description:** A brief description of what this project does and who it's for
-
-# Installation
-
-# Quick Start
+**Description:** Use of deep learning to classify head MRIs
 
 # Authors
+Walter Muruet
 
-
+# Data
+From: [B. Tasci, I. Tasci, Deep feature extraction based brain image classification model using preprocessed images: PDRNet, Biomedical Signal Processing and Control, 78 (2022)103948.](https://doi.org/10.1016/j.bspc.2022.103948)
+Retrived from [Kaggle](https://www.kaggle.com/datasets/buraktaci/mri-stroke)
 
 
 # Apendices
@@ -29,28 +28,8 @@ Descriptions are written in plain text  on the RHS of an '<-'
 
 ---  
     
-- **Data**
-  - *External*       <- Data from third party sources.
-  - *Interim*        <- Intermediate data that has undergone any processing.
-  - *Processed*      <- The final, canonical data set(s) for visualisation, analysis and/or modeling.
-  - *Raw*            <- The original, immutable data dump.  
-- **Models**         <- Trained and serialised models and model summaries.
 - **Notebooks**      <- Jupyter notebooks.
-- **Resources**      <- Data dictionaries, manuals, and all other explanatory material.
-- **Reports**        <- Generated analysis report.
-  - *Figures*        <- Generated graphics and figures.
-- **packrat**        <- Dependency management system for R.
-  - *lib*            <- Private package library for this project.
-  - *src*            <- Source packages of all the dependencies recorded in packrat for this project.
-  - `packrat.lock`   <- Lists the precise package versions that were used to satisfy dependencies.
-  - `packrat.opts`   <- Project-specific packrat options.
 - **Src**            <- Source code files for this project.
-  - *R*              <- R scripts.
-  - *Python*         <- Python scripts.
 - `README.md`        <- This file. 
-- `Requirements.txt` <- Python requirement file(s) to reproduce the original analysis environment.
-- `Main_R`           <- Master file for R Analysis.
-- `Main_Py`          <- Master file for Python Analysis.
-- `Project.Rproj`    <- R project file.
-- `.Rprofile`        <- (Hidden file) Directs R to use the private package library.
+- `Requirements.txt` <- Python requirements file.
 - `.here`            <- (Hidden file) Anchor file for pyHere module.
